@@ -1,5 +1,5 @@
 from flask import Flask, render_template, request, send_from_directory
-from moviepy import VideoFileClip
+from moviepy.editor import VideoFileClip
 import os
 import uuid
 
